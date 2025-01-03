@@ -97,8 +97,8 @@ jobs:
 
       - name: Build and push Docker image
         run: |
-          docker build -t 6945/restappimage:latest .
-          docker push 6945/restappimage:latest
+          docker build -t bhaarn/restappimage:latest .
+          docker push bhaarn/restappimage:latest
 
       - name: Install Docker Scout
         run: |
